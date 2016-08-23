@@ -1,0 +1,98 @@
+.svg{
+  height:70px; 
+  width:70px;
+}
+
+.basicBox {
+  display: inline-block;
+  width: 32%;
+  height: 65px;
+  margin: 15px auto;
+  font-size: 1.15rem;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+#svgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:;
+  height:65; 
+}
+
+svg rect {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+}
+
+#edu:hover svg rect{
+  stroke: #FF0009;
+}
+#xp:hover svg rect{
+  stroke: #7FFF00;
+}
+#skills:hover svg rect{
+  stroke: #4274D3;
+}
+/* Basic Box */
+svg rect {
+  stroke-dasharray: 400, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.basicBox:hover svg rect {
+  stroke-width: 3;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+ @media screen and (orientation:portrait) { 
+  nav{
+    position: fixed;
+    bottom: 0%;
+  }
+  .svg{
+  height:60%; 
+  width:60%;
+}
+
+.basicBox {
+  display: inline-block;
+  width: 32%;
+  height: 65px;
+  margin: 15px auto;
+  font-size: 1.15rem;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+#svgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:;
+  height:65; 
+}
+
+svg rect {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+}
+  }
+ @media screen and (orientation:landscape) { … }
+}

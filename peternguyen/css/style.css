@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html{
+	color: white;
+	opacity: 20%;
+}
+@font-face {
+    font-family: future;
+    src: local(future_font), url('fonts/future.ttf') format('opentype');
+}
+#about{
+    height: 100vh;
+    width: 400px; 
+    justify-content: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+#fullname{
+  font-family: 'Lato', sans-serif;
+	position: absolute;
+    left: 30%;
+    bottom: 40%;
+
+
+}
+
+footer{
+	position: relative;
+	margin-top: 15%;
+}
+
+#con{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+#foot{
+    font-family: future;
+}
